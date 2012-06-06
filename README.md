@@ -12,3 +12,18 @@ O projeto consiste de um objeto validador de emails, com um único método, que 
 Os testes já estão feitos, porém a implementação ainda não.
 
 Você deve criar a implementação até todos os testes estarem passando.
+
+## Como executar os testes
+
+Na raiz do projeto, configure as dependências uma única vez:
+
+```
+$ gem install bundler
+$ bundle
+```
+
+Em seguida, para rodar os testes, use:
+
+```
+$ bundle exec rspec spec/email_validator_spec.rb
+```
